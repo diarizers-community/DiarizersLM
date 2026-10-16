@@ -1,5 +1,11 @@
 # DiarizersLM
 
+> **⚠️ ARCHIVED / SUPERSEDED BY [`diarizers`](https://github.com/diarizers-community/diarizers)**
+>
+> All functionality from `DiarizersLM` (including ASR + speaker diarization alignment, dual-flavor `hyp2ora` + `deg2ref` and Locality-Preserving Oracle data preparation, LoRA/SFT training, GGUF CPU inference, and Locality-Gated Transcript-Preserving Speaker Transfer `LG-TPST`) has been merged into and superseded by **[`diarizers` (`v1.0.0+`)](https://github.com/diarizers-community/diarizers)** (`pip install diarizers`).
+>
+> Please use **[`diarizers-community/diarizers`](https://github.com/diarizers-community/diarizers)** for all new development, training, evaluation, and deployment.
+
 DiarizersLM is an experimental project inspired by Google's DiarizationLM work.
 It reimplements the diarization-correction pipeline with Whisper for automatic
 speech recognition (ASR), pyannote.audio for speaker diarization, and a
